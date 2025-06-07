@@ -36,7 +36,6 @@ Currently, this API can be tested locally using Insomnia or Postman. Sample requ
 ## Video Walkthrough Link:
 
 [Link] https://app.screencastify.com/watch/vkC9K4aO4uOMqfhpR9kf
-https://app.screencastify.com/watch/Z50mnvrPUpm8l9iWJMlC
 ---
 
 ## Features
