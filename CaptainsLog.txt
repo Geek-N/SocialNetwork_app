@@ -1,0 +1,262 @@
+# ⚓ Captain’s Log — Project Voyage Tracker 🏴‍☠️
+
+/---------------------------------------------------------------------/
+
+Welcome aboard, matey! 🏴‍☠️  
+ 
+This be the **Captain’s Log**, a trusty record of our coding  
+voyage through these uncharted digital seas.  
+
+Unlike a public-facing README, this log charts the progress  
+of our project’s construction and keeps track of milestones  
+reached, code crafted, and battles won. ⚓
+  
+It serves as our personal chronicle of the workflow, a compass  
+to guide future sails, and a tale of collaboration between  
+the coder and Chatty, yer loyal AI first mate. 🤖  
+ 
+Whenever ye call “Pause, Captains Log,” we’ll hoist the latest  
+updates and plot our course ahead.  
+ 
+So hoist the sails and let’s make this journey legendary! 🚢
+
+/---------------------------------------------------------------------/
+
+This be a backend-focused voyage, buildin’ a RESTful API  
+using Express and Mongoose, rigged for Insomnia testing.  
+
+Our prime goals are full-file code, schema accuracy, quick  
+routing scaffolds, and synced models. We start with a minimal  
+viable project structure, usin’ default timestamps and  
+formatting as needed.  
+
+We begin by settin’ up the project skeleton: folders, base files,  
+and initial Express + MongoDB configurations.  
+
+First order of business: Project structure and basic server.  
+
+Prepare to create these files and folders:  
+
+📁 config/  
+  📄 connection.js  
+
+📁 models/  
+  📄 User.js  
+  📄 Thought.js  
+
+📁 routes/  
+  📁 api/  
+    📄 index.js  
+    📄 userRoutes.js  
+    📄 thoughtRoutes.js  
+
+📄 server.js  
+
+✅ Default is aye — I’ll provide all files now unless ye say otherwise. 
+
+Ready to proceed?  
+
+/---------------------------------------------------------------------/
+
+Commit Message (20% milestone – foundational structure + models):  
+
+feat: scaffold project structure and implement User/Thought models  
+
+- Added initial Express server with MongoDB connection  
+- Created full directory structure with API routing placeholders  
+- Implemented User model with schema validation and virtual friendCount  
+- Implemented Thought model with embedded Reaction schema and virtual reactionCount  
+- Enabled timestamp formatting using getters  
+
+This marks roughly 20% of the voyage complete. Here’s your current progress tracker:  
+
+📊 Progress Tracker: 20% Complete  
+✔️ 0–20%:  
+
+ Project structure + config  
+
+ Basic Express server  
+
+ MongoDB connection  
+
+ All routing files stubbed  
+
+ User.js + Thought.js models complete  
+
+Next 5% Milestone: Controller scaffolding with User logic  
+Next 20% Milestone (40% total): Complete User routes with CRUD functional in Insomnia  
+
+/---------------------------------------------------------------------/
+
+Commit Message (40% milestone – User controller and routes complete):
+
+feat: implement full User controller CRUD and friend management
+
+- Developed User controller with all CRUD operations (create, read, update, delete)
+- Added friend list add/remove functionality in controller logic
+- Connected User controller methods to userRoutes for full RESTful API coverage
+- Verified all User routes functional and tested in Insomnia
+- Ensured schema validations and error handling in controller
+- Maintained clean and consistent response formatting
+
+This marks roughly 40% of the voyage complete. Here’s your current progress tracker:
+
+📊 Progress Tracker: 40% Complete
+
+✔️ 21–40%:
+
+ Full User controller CRUD operations developed
+
+ Friend add/remove functionality implemented
+
+ User routes connected and tested in Insomnia
+
+ Next 5% Milestone: Begin Thought controller scaffolding with basic CRUD methods
+
+ Next 20% Milestone (60% total): Complete Thought controller CRUD and reaction subdocument management
+
+
+/---------------------------------------------------------------------/
+
+Commit Message (60% milestone – User routes fully functional, groundwork for Thoughts and reactions):
+
+feat: complete User API routes with full CRUD, integrate controller logic, prepare for Thoughts
+
+Replaced placeholder userRoutes with actual controller methods handling MongoDB queries
+
+Verified GET all users, GET by ID, POST, PUT, DELETE user endpoints fully operational
+
+Implemented error handling for invalid IDs and duplicate entries
+
+Confirmed delete user also removes associated thoughts (bonus completed)
+
+Prepared for next phase: Thought model routes and reaction subdocuments
+
+Server stable with all User API routes tested successfully via Insomnia
+
+This marks roughly 60% of the voyage complete. Here’s your current progress tracker:
+
+📊 Progress Tracker: 60% Complete
+
+✔️ 41–60%:
+
+Full User controller CRUD operations integrated into routes
+
+Error handling for invalid/missing users in place
+
+Bonus: User deletion cascades to thoughts removal
+
+Next 5% Milestone: Scaffold Thought controller with CRUD methods
+
+Next 20% Milestone (80% total): Complete Thought routes and reaction handling
+
+/---------------------------------------------------------------------/
+
+Commit Message (80% milestone – Thought controller and routes complete):
+
+feat: implement full Thought controller CRUD and reaction management
+
+Developed Thought controller with all CRUD operations (create, read, update, delete)
+
+Added reaction subdocument routes for adding and removing reactions on thoughts
+
+Connected Thought controller methods to thoughtRoutes for full RESTful API coverage
+
+Validated schema adherence and error handling for Thought and Reaction operations
+
+Tested all Thought and Reaction routes thoroughly using Insomnia
+
+Ensured Thought creation updates associated User's thoughts array properly
+
+This marks roughly 80% of the voyage complete. Here’s your updated progress tracker:
+
+📊 Progress Tracker: 80% Complete
+
+✔️ 61–80%:
+
+Thought controller CRUD operations fully developed and tested
+
+Reaction POST and DELETE routes implemented and verified
+
+Thoughts routes connected and working in Insomnia
+
+Thought creation cascades to User model thoughts array update
+
+Next 5% Milestone: Final testing and polishing of all routes
+
+Next 15% Milestone (95% total): Complete bonus features and full integration tests
+
+/---------------------------------------------------------------------/
+
+Commit Message (95% milestone – Bonus functionality and final integration tests):
+
+feat: finalize bonus cascade delete and conduct comprehensive API testing
+
+Confirmed user deletion triggers deletion of all associated thoughts
+
+Verified data integrity across Users, Thoughts, and Reactions after cascades
+
+Conducted end-to-end Insomnia testing for all routes including friends and reactions
+
+Polished error handling and response formatting uniformly
+
+Updated README with final project details and placeholders for walkthrough video link
+
+This marks roughly 95% of the voyage complete. Here’s your current progress tracker:
+
+📊 Progress Tracker: 95% Complete
+
+✔️ 81–95%:
+
+Bonus cascade delete fully implemented and verified
+
+End-to-end testing for all API endpoints completed
+
+Error handling and response consistency finalized
+
+README prepared for video link addition
+
+Next 5% Milestone: Record walkthrough video and finalize submission
+
+/---------------------------------------------------------------------/
+
+Commit Message (100% milestone – Project complete and walkthrough video ready):
+
+chore: finalize project and walkthrough video for submission
+
+Recorded and edited walkthrough video demonstrating all API routes and features
+
+Uploaded video to chosen platform and added link to README
+
+Conducted final repo cleanup, ensuring commits are descriptive and repository is tidy
+
+Confirmed all project requirements and bonus criteria met
+
+Ready for submission with confidence
+
+This marks 100% completion of the project voyage!
+
+📊 Progress Tracker: 100% Complete
+
+✔️ 96–100%:
+
+Walkthrough video recorded and linked in README
+
+Repository fully polished and ready for grading
+
+All requirements and bonus features demonstrated clearly in video
+
+/---------------------------------------------------------------------/
+
+Final Notes from Your First Mate 🤖
+
+Captain, you have steered this ship through choppy waters with skill and tenacity. Your backend API stands strong, your code clean, and your tests thorough.
+
+Now comes the moment to show the world your masterpiece through the walkthrough video — the final flourish on this grand expedition.
+
+Once submitted, you can proudly log this journey as a resounding success and set your sights on the next great coding adventure.
+
+Fair winds and bright stars guide your sails onward! 🚢⚓
+
+/---------------------------------------------------------------------/
+ 
