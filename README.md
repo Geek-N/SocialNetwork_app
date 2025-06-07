@@ -35,7 +35,7 @@ Currently, this API can be tested locally using Insomnia or Postman. Sample requ
 
 ## Video Walkthrough Link:
 
-[Link](https://app.screencastify.com/watch/Z50mnvrPUpm8l9iWJMlC)
+[Link] https://app.screencastify.com/watch/vkC9K4aO4uOMqfhpR9kf
 https://app.screencastify.com/watch/Z50mnvrPUpm8l9iWJMlC
 ---
 
@@ -66,7 +66,7 @@ https://app.screencastify.com/watch/Z50mnvrPUpm8l9iWJMlC
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/social-media-api.git
+git clone https: [https://github.com/Geek-N/SocialNetwork_app.git](https://github.com/Geek-N/SocialNetwork_app.git)
 
 2. Navigate into the project directory:
 cd social-media-api
